@@ -17,7 +17,7 @@ var haystack2 = ['glass', 'needle'];
 Instructions:
 
 Take the following `findNeedle` function and extend it so that it:
-- Does not return a single number, but an array of all the positions that contrain "needle"
+- Does not return a single number, but an array of all the positions that contain "needle"
 - Returns an empty array (`[]`) when there is no needle in the haystack
 
 Be sure to follow TDD:

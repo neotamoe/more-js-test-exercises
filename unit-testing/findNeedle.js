@@ -20,8 +20,14 @@ Turn the below "find needle" code into a function
 that returns the index of "needle" in the given haystack
 */
 
-for(var i = 0; i < haystack1.length; i++) {
-  if(haystack1[i] === "needle") {
-    console.log("Found needle at position " + i);
+const findNeedle = (haystack) => {
+  for(var i = 0; i < haystack1.length; i++) {
+    if(haystack[i] === "needle") {
+      console.log("Found needle at position " + i);
+      return i;
+    }
   }
 }
+
+findNeedle(haystack1);
+findNeedle(haystack2);
