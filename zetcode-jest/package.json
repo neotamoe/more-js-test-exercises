@@ -1,0 +1,16 @@
+{
+  "name": "zetcode-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose ./test-directory"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "jest": "^24.9.0",
+    "jsonserver": "^0.1.6"
+  }
+}
