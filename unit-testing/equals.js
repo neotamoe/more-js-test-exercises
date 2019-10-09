@@ -12,4 +12,4 @@ function equals(got, expected) {
 
 equals(1, 1); // This should pass!
 equals(1, 2); // This should fail
-equals("Hello", "Hello"); // This should fail
+equals("Hello", "Hello"); // This should pass
