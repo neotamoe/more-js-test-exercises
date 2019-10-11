@@ -1,3 +1,5 @@
+// This code was already written; I did not make any changes in this section (20-Mocking Document)
+
 const getFirstElementByName = (name) => {
   const elements = document.getElementsByName(name);
   return elements && elements.length ? elements[0] : null;
